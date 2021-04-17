@@ -14,9 +14,10 @@ Simple spa-menu application
 ## :eyes: Try it out
 
 ```
-git clone https://github.com/nikindtmas1/Spa-Menu/tree/main/Spa%20Menu
+git clone https://github.com/nikindtmas1/My-Spa-Menu
 npm install
 npm run start
+open new tab in brawser on localhost:3000
 ```
 
 ## :pencil: License

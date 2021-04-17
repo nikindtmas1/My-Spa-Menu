@@ -6,7 +6,7 @@ const searchTemplate = (data,onSearch,price) => html`
     <h1>Filter By Price</h1>
 
     <div class="container">
-        <input id="search-input" type="text" name="search" placeholder="Enter desired production year" .value=${price || ''}>
+        <input id="search-input" type="text" name="search" placeholder="Enter price" .value=${price || ''}>
         <button @click=${onSearch} class="button-list">Search</button>
     </div>
 
