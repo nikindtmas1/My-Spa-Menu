@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Spa Menu</title>
+    <link rel="stylesheet" href="/style/styles.css">
+    <script src="/src/app.js" type="module"></script>
+</head>
+
+<body>
+
+    <div id="container">
+
+        <!-- Navigation -->
+        <header>
+            <nav>
+                <a class="active" href="/">Home</a>
+                <a id="unlogged-user" href="/all-listings">All Massages</a>
+                <div id="logged-user">
+                <a href="/all-massages">All Massages</a>
+               
+                    <a href="/search">By Price</a>
+                    <a href="/searchTime">By Time</a>
+                    <a href="/searchType">By Type</a>
+                
+                </div>
+                <!-- Guest users -->
+                <div id="guest">
+                    <a href="/login">Login</a>
+                    <a href="/register">Register</a>
+                </div>
+                <!-- Logged users -->
+                <div id="ownerUser">
+                    <a href="/myCarsList">My Massages</a>
+                    <a href="/create">Create Massage</a>
+                </div>
+
+                <div id="profile">
+                    <a id="userId">Welcome user-email</a>
+                    <a id="logoutBtn" href="javascript:void(0)">Logout</a>
+                </div>
+
+                
+            </nav>
+        </header>
+
+        <main id="site-content">
+
+            <!-- Main Content -->
+
+        </main>
+
+        <footer>
+            <p>&copy; All rights reserved</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
