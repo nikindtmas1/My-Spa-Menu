@@ -1,6 +1,6 @@
 # My-Spa-Menu
 
-Simple spa-menu application
+Sample Spa-Menu Application
 
 
 
