@@ -82,7 +82,7 @@ export async function login(username,password){
 //username,email,password, gender - options
 export async function register(email,username,password){
     const result = await post(settings.host + '/users', {email,username,password});//username,email,password, gender - options
-  
+ 
     sessionStorage.setItem('username',username);
     sessionStorage.setItem('authToken',result.sessionToken);
     sessionStorage.setItem('userId',result.objectId);
